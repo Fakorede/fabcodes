@@ -2,7 +2,7 @@
 
 ## Introduction
 
-To write your first code in any programming language, it has become a norm to start with a simple hello world program. In this program, I will be showing how to write a program in GO and explain all the parts of the program. Lets begin!👍🏼
+To write your first code in any programming language, it has become a norm to start with a simple hello world program. In this post, I will be showing how to write a program in GO and explain all the parts of the program. Lets begin!👍🏼
 
 ## Program
 
