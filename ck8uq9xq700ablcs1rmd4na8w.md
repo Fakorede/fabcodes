@@ -10,12 +10,12 @@ A package in GO can either be an _Executable Package_ or a _Library Package_.
 ## Executable vs Library Packages
 
 ### Executable Packages
-A package is an executable if it starts with the `package main` statement. Every executable should have a `main()` function which serves as the entry point of an executable program.
+These are programs that can be run from the command line. A program is executable if it starts with the `package main` statement. Every executable program should have a `main()` function which serves as the entry point of an executable program.
 
 An example of an executable program is one i have written in this [post](https://fabcodes.hashnode.dev/the-classic-hello-world-program-in-go-ck8syp9cm00380fs12jyrolnh).
 
 ### Library Packages
-Library Packages encourage us to build upon existing code, think reusability. They are non-executable and can be imported into any GO program.
+These are reusable pieces of code that are used by other programs to perform certain tasks. They encourage us to build upon existing code. They are non-executable and can be imported into any GO program.
 
 A Library Package does not have a `main()` function. Functions in a Library Package can have any name and should be capitalized for it to be accessible outside the package.
 
@@ -30,3 +30,5 @@ The purpose of this article was to introduces GO Packages and also explain what 
 - [What the $GOPATH is about](https://fabcodes.hashnode.dev/what-the-dollargopath-is-about-ck8stjzhh004y07s129623r3v)
 
 - [The Classic Hello World Program in GO](https://fabcodes.hashnode.dev/the-classic-hello-world-program-in-go-ck8syp9cm00380fs12jyrolnh)
+
+#### Code Samples - https://github.com/Fakorede/Learning-Golang
