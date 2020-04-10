@@ -26,7 +26,9 @@ func main() {
 
 - ` main`  represents the name of the package which this file belongs to.
 
-- `import fmt`: This line imports the fmt package. [fmt](https://golang.org/pkg/fmt/) is a package that comes with the GO standard library. 
+-  `import`: The import keyword is used to import reusable pieces of code from other packages to use in our program.
+
+- `import fmt`: This line imports the fmt package. [fmt](https://golang.org/pkg/fmt/) is a package that ships with the GO standard library and is used for formatted I/O.
 
 - `func main` is an entry point to this program. It is a special function which tells GO where to start execution. In all executable programs, almost everything will be run under this function.
 
@@ -42,7 +44,7 @@ There are two(2) tools available to run a GO program.
 ```
 $ go build
 ```
-It seems as though nothing happened but then we need to use the `ls` or `dir` command to see the executable file. And then we run it by typing `./helloworld`.
+It seems as though nothing happened but in the background, this compiles the GO code to machine code. We need to use the `ls` command to see the executable file. And then we run it by typing `./helloworld`.
 
  > This way of running GO programs is best suited for deployment.
 
@@ -64,3 +66,5 @@ That is all when trying to write and run your first program in GO. With this, we
 - [What the $GOPATH is about](https://fabcodes.hashnode.dev/what-the-dollargopath-is-about-ck8stjzhh004y07s129623r3v)
 
 - [An Introduction to GO Packages](https://fabcodes.hashnode.dev/an-introduction-to-go-packages-ck8uq9xq700ablcs1rmd4na8w)
+
+#### Code Samples - https://github.com/Fakorede/Learning-Golang
