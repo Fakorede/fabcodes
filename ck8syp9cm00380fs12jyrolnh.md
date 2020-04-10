@@ -62,3 +62,5 @@ That is all when trying to write and run your first program in GO. With this, we
 
 ## Other Articles 📖
 - [What the $GOPATH is about](https://fabcodes.hashnode.dev/what-the-dollargopath-is-about-ck8stjzhh004y07s129623r3v)
+
+- [An Introduction to GO Packages](https://fabcodes.hashnode.dev/an-introduction-to-go-packages-ck8uq9xq700ablcs1rmd4na8w)
