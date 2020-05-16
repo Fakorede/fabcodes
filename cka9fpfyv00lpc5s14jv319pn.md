@@ -1,7 +1,7 @@
 ## Open-Closed Principle in Go
 
 # Introduction
-This Open-Closed Principle states that types should be open for extension, but closed for modification.
+The Open-Closed Principle states that types should be open for extension, but closed for modification.
 
 ## Analogy
 
